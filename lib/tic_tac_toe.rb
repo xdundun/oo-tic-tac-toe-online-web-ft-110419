@@ -13,9 +13,9 @@ class TicTacToe
   def input_to_index(choice)
     num = choice.to_i
     puts num
-    if num > 0 && num < 9
-    num -= 1
-    end
+      if num > 0 && num < 9
+        num -= 1
+      end
       return num
   end
 

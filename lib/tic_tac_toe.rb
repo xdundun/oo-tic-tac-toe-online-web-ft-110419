@@ -8,6 +8,8 @@ class TicTacToe
 
   def display_board
     print " " + @board[0] + " | " + @board[1] + " | " + @board[2] + " "
+    print " " + @board[0] + " | " + @board[1] + " | " + @board[2] + " "
+    print " " + @board[0] + " | " + @board[1] + " | " + @board[2] + " "
   end
 
   def input_to_index(choice)

@@ -16,7 +16,7 @@ class TicTacToe
     if num > 0 && num < 9
     num -= 1
     end
-      @board[num]
+      return num
   end
 
 end #end of class
